@@ -1,0 +1,11 @@
+var nome = prompt('Come ti chiami?');
+var cognome = prompt('Quale è il tuo cognome?');
+var colore = prompt('Quale è il tuo colore preferito?');
+var data = new Date();
+var anno = data.getFullYear();
+// document.getElementById('nome').innerHTML = nome;
+// document.getElementById('cognome').innerHTML = cognome;
+// document.getElementById('colore').innerHTML = colore;
+// document.getElementById('anno').innerHTML = anno;
+document.getElementById('result').innerHTML = nome+cognome+colore+anno;
+document.getElementById('result-2').innerHTML = nome + ';' + cognome + ';' + colore + ';' + anno;
